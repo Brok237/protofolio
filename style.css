@@ -462,6 +462,15 @@ section {
     align-items: center;
     justify-content: center;
     min-height: 400px;
+    overflow: hidden;
+}
+
+.project-img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
 .project-placeholder {
